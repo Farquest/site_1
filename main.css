@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+.Navegacao {
+    background-color: black;
+    color: white;
+}
+
+li {
+    display: inline-block;
+    padding-right: 7vw;
+}
+
+.Banner {
+    background-image: url(images/banner.png);
+    height: 150px;
+}
+
+.Conteudo {
+    padding: 50px;
+}
+
+.Galeria {
+    padding: 50px;
+}
+
+.Galeria img {
+    width: 400px;
+}
+
+.Informacoes {
+    background-color: grey;
+    color: white;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 700px){
+    body {
+        font-size: 30px;
+    }
+
+    .Navegacao {
+        text-align: center;
+        font-size: 80%;
+    }
+
+    .Conteudo {
+        padding: 10px;
+    }
+
+    .Galeria {
+        padding: 10px;
+    }
+
+    .Galeria img {
+        width: 100%;
+        height: auto;
+    }   
+}
